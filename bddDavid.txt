@@ -1,0 +1,12 @@
+Recurso: Vizualizar contracheque
+
+Como colaborador posso acessar contracheque armazenados por período anual.
+
+
+
+Cenário: Vizualizar contracheque
+Backgroud: Login
+Dado: Que eu estou logado no sistema
+E: com papel de usuário
+Quando: armazenados os contracheques
+Então: os meus contracheque ficam vizíveis na tela organizados por mês de ano selecionado.
